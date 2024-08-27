@@ -12,6 +12,7 @@ public class ShengfengApplication {
     public static void main(String[] args) {
         SpringApplication.run(ShengfengApplication.class, args);
     }
+
     @Bean
     public PropertiesFactoryBean systemMessage() {
         PropertiesFactoryBean propertiesFactoryBean = new PropertiesFactoryBean();
