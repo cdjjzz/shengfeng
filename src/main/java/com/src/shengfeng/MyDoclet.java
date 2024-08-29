@@ -27,6 +27,7 @@ public class MyDoclet implements Doclet {
      */
     public static void main(String[] args) {
         log.info("main");
+          log.info("lsf");
         //组装命令
         String[] javadocCommand =
                 new String[]{
